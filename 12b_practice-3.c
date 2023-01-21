@@ -2,20 +2,23 @@
 
 int main(){
     int a;
-    float b,c,d;
-        b=0.05*a;
-        c=0.2*a;
-        d=0.3*a;
-    printf("Enter your income in Lakhs: ");
+    float b;
+    printf("Enter your income : ");
     scanf("%d",&a);
-    if (2.5<=a<5){
-        printf("The income tax paid by you is : %f",b);
+    if(a<250000){
+        b=0;
     }
-    else if (5<=a<10){
-        printf("The income tax paid by you is : %f",c);
+    else if (250000<=a<500000){
+        b=0.05*a;
+        // printf("The income tax paid by you is : %f",b);
+    }
+    else if (500000<=a<1000000){
+        b=0.2*a;
+        // printf("The income tax paid by you is : %f",b);
     }
     else{
-        printf("The income tax paid by you is : %f",d);
+        b=0.3*a;
     }
+        printf("The income tax paid by you is : %f",b);
     return 0;
-}
+}   
