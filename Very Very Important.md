@@ -1,0 +1,1 @@
+The C(gcc) Compiler reads values from right to left!!
