@@ -20,6 +20,7 @@ int fibo(int a){
     else{
         int fib;
         fib=fibo(a-1)+fibo(a-2);
+        printf("%d\n",fib);
         return fib;
     }
 }
