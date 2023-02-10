@@ -1,3 +1,4 @@
+//Changing the value inside main through a function by calling it through reference
     #include <stdio.h>
     
     int ten(int*a);
