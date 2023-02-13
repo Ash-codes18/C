@@ -20,3 +20,4 @@ int natural(int n){
         return calc;
     }
 }
+// write a c code to print prime numbers upto a given point

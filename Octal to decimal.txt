@@ -1,0 +1,9 @@
+To convert octal to decimal
+
+we multiply the unit place no with 8 to the power 0 and continue forward
+
+for ex : 015 in decimal would be equal to 
+
+5*8^0 + 1*8^1 + 0*8^2
+= 5+8+0
+= 13
