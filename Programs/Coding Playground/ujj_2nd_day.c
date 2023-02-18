@@ -28,44 +28,33 @@ int main(){
 
     int *result = malloc(s * sizeof(int)); 
     int k = 0;
+    int hcf = 1; 
+
     printf("Common factors are: ");
-   
-                int flag = 0;
+
+    int halua = 0;
     for (int i = 0; i < s; i++) {
         for (int j = 0; j < t; j++) {
             if (array1[i] == array2[j]) {
                 for (int x = 0; x < k; x++) {
                     if (result[x] == array1[i]) {
-                        flag++;
+                        halua++;
                     }
                 }
-                if (flag == 0) {
+                if (halua == 0) {
                     result[k] = array1[i];
                     printf("%d ", result[k]);
                     k++;
+                    if (array1[i] > hcf) { 
+                        hcf = array1[i];
+                    }
                 }
+                halua = 0; 
             }
         }
     }
 
-    // int max=sizeof(result)-1;
-    // for(int l=0;l<sizeof(result)/4;l++){
-    //     int check=result[l];
-    //     if(max>check){
-    //         max=check;
-    //         // break;
-    //     }
-    // }
-    int max;
-for (int k=0;k<flag;k++){
-     if (result[k] > max) {
-        max = result[k];
-    }
-}
+    printf("\nHighest common factor is: %d", hcf);
 
-    // free(array1);
-    // free(array2);
-    // free(result);
-printf("\n%d",max);
     return 0;
 }
