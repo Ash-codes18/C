@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int a=0;
-    while (a<20){
-        a++;
-        if (a>=10 && a<=20){
-            printf("The value of a is : %d\n",a);
-        }
+    int a;
+    printf("Enter the last natural no. in the list : ");
+    scanf("%d",&a);
+    for (int i = 0; i < a; a--)
+    {
+        printf("%d\n",a);
     }
+    
     return 0;
 }
