@@ -15,7 +15,6 @@ int main(){
             scanf("%d",&array[i][j]);
         }
     }
-
     //Loop to print the values of the array
     for(int i =0; i<a; i++){
         for(int j=0; j<b;j++){
