@@ -5,4 +5,4 @@ int main(){
     int i =2;
     int *j = &i; // This is a pointer
     return 0;
-}4
+}
