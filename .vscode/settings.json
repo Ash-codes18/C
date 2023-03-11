@@ -2,6 +2,7 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "stdio.h": "c",
-        "FOR.C": "cpp"
+        "FOR.C": "cpp",
+        "FACTORIA.C": "cpp"
     }
 }
