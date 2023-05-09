@@ -1,0 +1,1 @@
+This is a file and we are going to read all the contents present in it.

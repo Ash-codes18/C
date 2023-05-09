@@ -1,0 +1,11 @@
+Modes in which a file can be openend :
+
+1. "r" = read
+2. "rb" = read in binary 
+They return NULL if the opened file does not exist
+
+3. "w" = write
+4. "wb" = write in binary
+
+5. "a" = append 
+It will create a file if it does not exist
