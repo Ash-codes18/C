@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "FOR.C": "cpp",
         "FACTORIA.C": "cpp",
-        "WATERCONS.C": "cpp"
+        "WATERCONS.C": "cpp",
+        "*.txt": "c"
     }
 }
